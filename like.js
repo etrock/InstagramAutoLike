@@ -1,6 +1,6 @@
 function like(){
   try {
-	  document.querySelectorAll("[aria-label='Tetszik']")[0].click() // onyl hungarian
+	  document.querySelectorAll("[aria-label='Tetszik']")[0].parentElement.click() // onyl hungarian
     document.getElementsByClassName('coreSpriteRightPaginationArrow')[0].click(); // right arrow class
   } catch (e) {
     // if picture liked just goint to the next picture
